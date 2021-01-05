@@ -138,7 +138,8 @@ class MCSimulation:
             
         # Use Pandas plot function to plot the return data
         plot_title = f"{self.nSim} Simulations of Cumulative Portfolio Return Trajectories Over the Next {self.nTrading} Trading Days."
-        return self.simulated_return.hvplot(legend=None,title=plot_title).opts(fontsize={'title' : "75%", 'legend' : '50%'})
+        plot_sim = self.simulated_return.hvplot(legend = False, title=plot_title).opts(fontsize={'title' : "75%", 'legend' : '50%'}, shared_axes=False)
+        return plot_sim
     
     def plot_distribution(self):
         """
@@ -152,11 +153,11 @@ class MCSimulation:
         
         # Use the `plot` function to create a probability distribution histogram of simulated ending prices
         # with markings for a 95% confidence interval
-        plot_title = f"Distribution of Final Cumuluative Returns Across All {self.nSim} Simulations"
-        plt1 = self.simulated_return.iloc[-1, :].hvplot(kind='hist', bins=10, title=plot_title, width=500, xlabel='probability').opts(fontsize={'title' : "75%", 'legend' : '50%'})
-        vline1 = hv.VLine(self.confidence_interval.iloc[0]).opts(color = 'red')
-        vline2 =  hv.VLine(self.confidence_interval.iloc[1]).opts(color = 'red')
-        plt = plt1 * vline1 * vline2
+        plot_title = f"Distribution of {self.portfolio_data.columns.get_level_values(0).unique().tolist()[0:3]} Final Cumuluative Returns Across All {self.nSim} Simulations"
+        plt1 = self.simulated_return.iloc[-1, :].hvplot(kind='hist', bins=10, title=plot_title, width=500, xlabel='probability').opts(fontsize={'title' : "75%", 'legend' : '50%'}, axiswise = True)
+        vline1 = hv.VLine(self.confidence_interval.iloc[0]).opts(color = 'red',axiswise = True)
+        vline2 =  hv.VLine(self.confidence_interval.iloc[1]).opts(color = 'red',axiswise = True)
+        plt = (plt1 * vline1 * vline2).opts(axiswise = True)
         return plt
     
     def summarize_cumulative_return(self):
