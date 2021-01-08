@@ -106,14 +106,13 @@ Conducted a Return and Risk Analysis of Pre-covid and Covid period by initially 
    
    * While looking at the matrix that shows the correlation between the assets; during the pre-covid period, the correlation is near 0 which indicates that there is no linear relationship between the variables. During covid period, correlation between bitcoin and other assets increased, however, it's still close to 0. However, the correlation between the dollar return and the rest of the assets decreased.
    
-   ![](images/2.PNG)
-   
    * As shown in the daily standard deviation dataframe; during covid, only standard deviation for bitcoin decreases whereas rest of the assets standard deviation increases. Even in the 21 window graph, it shows that volatility of SP500 has increased comparatively to the rest of the assets whereas the volatility of bitcoin has decreased.
    
-   ![](images/3.PNG)
+   ![](images/2.PNG)
    
    * After adjusting the risk, it is evident that bitcoin is the best performing asset during pre-covid and covid period. During pre-covid, bitcoin had a sharp ratio of 1.2 which is considered good for investors, whereas, during covid period bitcoin sharpe ratio was 2.3 which is considered very good by investors. The worst performing asset during both periods was the dollar. Hence, looking at the bar graph, investors would be more interested in bitcoin and gold as compared to the other two.
  
+ ![](images/3.PNG)
 
    ### Portfolio Optimization
 
