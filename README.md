@@ -53,6 +53,10 @@ Independent Variable 2: If there is a limited supply of vaccine or efficiency is
 
 ## Choice of Data Source and Cleaning
 
+### Data
+
+
+
 We have examined multiple data sources such as Alpaca, Quandl, FXCM, Alpha Vantage, Investing.com and Yahoo Finance.
 
 ### Alpaca 
