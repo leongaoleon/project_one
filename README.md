@@ -141,10 +141,28 @@ The following images relate to performance forecasting of the assets using Linea
    
    
    #### Monte Carlo Simulation
+   
+   Doing 100 times of simulation of four different assets and optimized portfolio’s performance in  next three years based on Monte Carlo Simulation for the stated hypothesis. 
  
  ![](images/simulation.png)
+ 
+   #### Results - If everything back to Normal Condition, simulate based on data from 2017 to 2019
    
+   * There is a 95% chance that an initial investment of $10000 in gold over the next 3 years will end within in the range of $8765.71 and $17949.12
+   * There is a 95% chance that an initial investment of $10000 in dollar over the next 3 years will end within in the range of $7444.8 and $11020.65
+   * There is a 95% chance that an initial investment of $10000 in bitcoin over the next 3 years will end within in the range of $3492.1 and $421000.78
+   * There is a 95% chance that an initial investment of $10000 in sp500 over the next 3 years will end within in the range of $9451.43 and $21452.26
+   * There is a 95% chance that an initial investment of $10000 in the portfolio over the next 3 years will end within in the range of $10230.4 and $31092.97
    
+   #### Resukts - If pandemic Condition does not improve, simulate based on data in 2020
+   
+   * There is a 95% chance that an initial investment of $10000 in gold over the next 30 years will end within in the range of $8814.53 and $39061.98
+   * There is a 95% chance that an initial investment of $10000 in dollar over the next 30 years will end within in the range of $6360.55 and $10541.42
+   * There is a 95% chance that an initial investment of $10000 in bitcoin over the next 30 years will end within in the range of $21746.03 and $1429953.07
+   * There is a 95% chance that an initial investment of $10000 in sp500 over the next 30 years will end within in the range of $3978.24 and $63534.6
+   * There is a 95% chance that an initial investment of $10000 in the portfolio over the next 30 years will end within in the range of $48920.13 and $542433.28
+
+
    ### Possible rationale behind these price movements and relationships 
 
    #### Scarcity
