@@ -131,6 +131,8 @@ The following images relate to performance forecasting of the assets using Linea
    
    
    
+   
+   
    ### Possible rationale behind these price movements and relationships 
 
    #### Scarcity
