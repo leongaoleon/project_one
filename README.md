@@ -134,7 +134,9 @@ The following images relate to performance forecasting of the assets using Linea
 ![](images/norm_m2_plot.png)
    
    
-   
+   #### Monte Carlo Simulation
+ 
+ ![](images/simulation.png)
    
    
    ### Possible rationale behind these price movements and relationships 
