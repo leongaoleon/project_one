@@ -116,7 +116,8 @@ The efficient frontier is the set of optimal portfolios that offers the highest 
 Due to the curve shape of the efficient frontier, to find the true global minima, we applied the sequential least squares programming (SLSQP) optimizer from Scipy to calculated the optimal weighting for the three assets with the objective of minimizing a negative Sharpe ratio which is equivalent to maximizing a positive Sharpe ratio of the portfolio.
 
 We have found the optimal portfolio weighting for “Normal” 2017-2019, and “Epidemic” 2020, as displayed in the table.
-![](images/optimzation.png)
+
+![](images/optimization.PNG)
 
 
 Firstly, under these two scenarios, Interestingly, US Dollar futures is the least favorable asset to be included. And especially for the “Epidemic” scenario, the result suggests to avoid investing in the US Dollar.
