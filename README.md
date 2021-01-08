@@ -111,18 +111,16 @@ Conducted a Return and Risk Analysis of Pre-covid and Covid period by initially 
 
    ### Portfolio Optimization
 
-The efficient frontier is the set of optimal portfolios that offers the highest expected return for a defined level of risk, any portfolios below the efficient frontier are sub-optimal. In the other words, the optimal portfolio gives the highest Sharpe ratio.
-
-Due to the curve shape of the efficient frontier, to find the true global minima, we applied the sequential least squares programming (SLSQP) optimizer from Scipy to calculated the optimal weighting for the three assets with the objective of minimizing a negative Sharpe ratio which is equivalent to maximizing a positive Sharpe ratio of the portfolio.
-
-We have found the optimal portfolio weighting for “Normal” 2017-2019, and “Epidemic” 2020, as displayed in the table.
-
-![](images/optimization.PNG)
+Since these assets are not perfectly correlated. Forming a portfolio could reduce overall volatility for a defined expected return. The efficient frontier is the set of optimal portfolios that offers the highest expected return for a same level of risk, in the other words, the optimal portfolio gives the highest Sharpe ratio. Any portfolios below the efficient frontier are sub-optimal. Due to the curve shape of the efficient frontier, to find the true global minima, we applied the sequential least squares programming (SLSQP) optimizer from Scipy to calculate the optimal weighting with the objective of minimizing a negative Sharpe ratio which is equivalent to maximizing a positive Sharpe ratio of the portfolio.
 
 
-Firstly, under these two scenarios, Interestingly, US Dollar futures is the least favorable asset to be included. And especially for the “Epidemic” scenario, the result suggests to avoid investing in the US Dollar.
 
-Secondly, under the “Epidemic” scenario, although the assets are more volatile, Gold and Bitcoin performed much better and the portfolio could produce a much higher Sharpe ratio (2.37) comparing to under “Normal” scenario (1.47). The reason could be that investors were seeking a more defensive approach by investing more wealth into Gold and Bitcoin to against market uncertainty and inflation.
+   #### Finding
+   
+We have found the optimal portfolio weighting for the “Normal” 2017-2019, verse the “Epidemic” 2020, as displayed in the table.
+   
+Interestingly and firstly, under these scenarios, US Dollar futures is the least favorable asset to be included. Especially for the “Epidemic” scenario, the result suggests to avoid investing in US Dollar. Secondly, under the “Epidemic” scenario, although the assets are more volatile, Gold and Bitcoin performed much better and the portfolio could produce a much higher Sharpe ratio (2.37) comparing to under “Normal” scenario (1.47). The reason could be that investors were seeking a more defensive approach by investing more wealth into Gold and Bitcoin to against market uncertainty and inflation.
+
 
    ### Forecast
    
