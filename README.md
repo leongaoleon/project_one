@@ -123,6 +123,12 @@ Secondly, under the “Epidemic” scenario, although the assets are more volati
 
    ### Forecast
    
+The following images relate to performance forecasting of the assets using Linear Regression between M2 and each of the assets under consideration and the Monte Carlo simulation. 
+
+   #### Linear Regression
+   
+   ![](
+   
    
    
    ### Possible rationale behind these price movements and relationships 
