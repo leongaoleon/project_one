@@ -127,7 +127,11 @@ The following images relate to performance forecasting of the assets using Linea
 
    #### Linear Regression
    
+![](images/linear.png)
 
+
+
+![](images/norm_m2_plot.png)
    
    
    
