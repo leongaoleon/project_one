@@ -21,9 +21,7 @@ The measures taken by governments around the globe to have the pandemic under co
 ## Purpose of the Project: 
 
     i) Identify the best performing type of currency during a “normal period” and during the “pandemic period”.  Currencies under consideration are the USD, Gold, and the     Bitcoin. 
-    
     ii) Provide simulated performances for each type of currency for both a “normal period” and a “pandemic period” to yield a forecast that will help illustrate which type of currency to invest in during “normal period” and a “pandemic period”.  
-    
     iii) Provide a visualisation of the findings based on the analysis conducted. 
 
 
