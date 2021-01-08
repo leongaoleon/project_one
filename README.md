@@ -20,11 +20,11 @@ The measures taken by governments around the globe to have the pandemic under co
 
 ## Purpose of the Project: 
 
-    1.	Identify the best performing type of currency during a “normal period” and during the “pandemic period”.  Currencies under consideration are the USD, Gold, and the     Bitcoin. 
+    i) Identify the best performing type of currency during a “normal period” and during the “pandemic period”.  Currencies under consideration are the USD, Gold, and the     Bitcoin. 
     
-    2.	Provide simulated performances for each type of currency for both a “normal period” and a “pandemic period” to yield a forecast that will help illustrate which type of currency to invest in during “normal period” and a “pandemic period”.  
+    ii) Provide simulated performances for each type of currency for both a “normal period” and a “pandemic period” to yield a forecast that will help illustrate which type of currency to invest in during “normal period” and a “pandemic period”.  
     
-3.	Provide a visualisation of the findings based on the analysis conducted. 
+    iii) Provide a visualisation of the findings based on the analysis conducted. 
 
 
 ## Hypothesis:
@@ -33,13 +33,13 @@ Factor: New Covid-19 outbreaks or mutation of Covid-19 against the vaccines
 
 Independent Variable 1: If vaccine is effective and supply is efficient in 2021
 
-      1. Economic recovery will put pressure on Bitcoin and Gold prices
-      2. USD will be attractive again
+      i)  Economic recovery will put pressure on Bitcoin and Gold prices
+      ii) USD will be attractive again
 
 Independent Variable 2: If there is a limited supply of vaccine or efficiency is lost due to virus mutation
 
-      1. More or prolonged quarantine time or lockdowns which will result to additional stimulus package boosting safe haven assets
-      2. Pressure on the value of the USD
+      i)  More or prolonged quarantine time or lockdowns which will result to additional stimulus package boosting safe haven assets
+      ii) Pressure on the value of the USD
 
 
 ## Technologies
@@ -97,7 +97,7 @@ We have checked the data types, duplications, and missing data.  Yahoo Finance i
 
 ## Analysis
 
-### Asset Past Performance
+   ### Asset Past Performance
 
 Conducted a Return and Risk Analysis of Pre-covid and Covid period by initially extracting data from 2017-2019 data for pre-covid and 2020 data for covid period from the concatenated dataframe.
 
@@ -108,3 +108,54 @@ Conducted a Return and Risk Analysis of Pre-covid and Covid period by initially 
    * As shown in the daily standard deviation dataframe; during covid, only standard deviation for bitcoin decreases whereas rest of the assets standard deviation increases. Even in the 21 window graph, it shows that volatility of SP500 has increased comparatively to the rest of the assets whereas the volatility of bitcoin has decreased.
    
    * After adjusting the risk, it is evident that bitcoin is the best performing asset during pre-covid and covid period. During pre-covid, bitcoin had a sharp ratio of 1.2 which is considered good for investors, whereas, during covid period bitcoin sharpe ratio was 2.3 which is considered very good by investors. The worst performing asset during both periods was the dollar. Hence, looking at the bar graph, investors would be more interested in bitcoin and gold as compared to the other two.
+ 
+
+   ### Possible rationale behind these price movements and relationships 
+
+   #### Scarcity
+
+The supply of bitcoin is constant and once the maximum number of bitcoins is mined there cannot be anymore created. This works much like gold, where there is a finite quantity of gold in the world, the asset has natural scarcity. 
+
+This juxtaposes fiat currency such as the USD, where monetary policy decisions made by regulators such as the federal reserve can manipulate the supply of the currency. In this way, both bitcoin and gold can be seen as hedges against USD monetary inflation. When the US, for instance, decides to give everyone $600 in the stimulus or increase the M2 money supply in the overnight money market, this injects money into the economy, the supply of USD increases and inflation is more likely. All whilst, the supply of bitcoin and gold supplies remains a constant and can therefore offer protection against this inflation.
+
+
+   #### Adoption / Use
+
+In terms of aggregate value, adoption perhaps plays the largest role in maintaining the value of currency long term. Because fiat currency such as the USD is backed by the government, it has a degree of stability in terms of legitimacy, promoting its use and in turn driving its demand and value. 
+
+This is where bitcoin is a tad risky, at this current point in time bitcoin’s value is driven more by speculation than through it’s adoption or use, although there is a moderate correlation between the two of ~0.3 [graph]. That being said we’ve seen square and PayPal partner with Bitcoin and support its use by 2021 and we may continue to see adoption-based value improve. 
+
+Gold on the other hand has more questionable adoption value, mankind's attitude to gold is truly bizarre! The adoption of gold giving it intrinsic value can be explained using countless theories, but the most prevailing is its traditional value. The value of gold has survived the test of time, societies and economies have long placed value in it, thus perpetuating it’s worth.
+
+
+   #### Speculation
+
+Perhaps the most interesting price dynamic, however, is through speculation, where investors way up political, social and economic variables to value an asset and these they might influence scarcity and adoption of an asset. 
+
+With 2020 we’ve seen many complications worldwide, but particularly in the US. There has been civil unrest, a pandemic sweeping over the nation, election delays and instability, rising government debt and with these complications, waves of uncertainty. With this uncertainty scepticism of governments and the government policies themselves have only grown. Moreover, it’s been seen the more worldly conflict or uncertainty there is in the world, the fewer confidence people place in governments and with extension, their fiat currency and the more speculators resort to bitcoin, gold and other alternate assets to hedge. It’s this fear and lack of confidence in centralized asset classes that drives demand for the decentralized alternatives. A genuine risk into 2021 that might explain the fall in USD value and a huge rise in Bitcoin and Gold could be the risk of stagflation and hyperinflation. The fed and other world banks have continued to drop interest rates to stimulate the economy during the pandemic. However, there is evidence in the USA that suggests inflation expectations are rising and the employment situation is weakening in tandem, leaving the fed in a tough spot in terms of leverage to inject money into the economy, whilst maintaining low inflation. If the economy doesn’t start to pick up stagflation and even possibly hyperinflation could become legitimate fears bringing into question the legitimately of the USD and potentially propel other asset classes such as bitcoin and gold.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
