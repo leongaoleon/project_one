@@ -113,7 +113,7 @@ Conducted a Return and Risk Analysis of Pre-covid and Covid period by initially 
 
 Since these assets are not perfectly correlated. Forming a portfolio could reduce overall volatility for a defined expected return. The efficient frontier is the set of optimal portfolios that offers the highest expected return for a same level of risk, in the other words, the optimal portfolio gives the highest Sharpe ratio. Any portfolios below the efficient frontier are sub-optimal. Due to the curve shape of the efficient frontier, to find the true global minima, we applied the sequential least squares programming (SLSQP) optimizer from Scipy to calculate the optimal weighting with the objective of minimizing a negative Sharpe ratio which is equivalent to maximizing a positive Sharpe ratio of the portfolio.
 
-
+ 
 
    #### Finding
    
