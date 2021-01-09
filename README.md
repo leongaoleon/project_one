@@ -154,7 +154,7 @@ Interestingly and firstly, under these scenarios, US Dollar futures is the least
    * There is a 95% chance that an initial investment of $10000 in sp500 over the next 3 years will end within in the range of $9451.43 and $21452.26
    * There is a 95% chance that an initial investment of $10000 in the portfolio over the next 3 years will end within in the range of $10230.4 and $31092.97
    
-   #### Resukts - If pandemic Condition does not improve, simulate based on data in 2020
+   #### Results - If pandemic Condition does not improve, simulate based on data in 2020
    
    * There is a 95% chance that an initial investment of $10000 in gold over the next 30 years will end within in the range of $8814.53 and $39061.98
    * There is a 95% chance that an initial investment of $10000 in dollar over the next 30 years will end within in the range of $6360.55 and $10541.42
@@ -178,13 +178,13 @@ By using linear_model among sklearn library, we can construct linear regression 
 ![](images/linear.png)
 
    #### Results
-In Jan 2021 , m2 money supply will be 19250.0, it is predicted that gold will be $1957.5, dollar index will be $95.54,bitcoin will be $13299.4, S&P 500 will be 3489.4
-In Feb 2021 , m2 money supply will be 19350.0, it is predicted that gold will be $1970.27, dollar index will be $95.54, bitcoin will be $13439.0, S&P 500 will be 3505.37
-In Mar 2021 , m2 money supply will be 19444.0, it is predicted that gold will be $1982.28, dollar index will be $95.54, bitcoin will be $13570.3, S&P 500 will be 3520.38
-In Apr 2021 , m2 money supply will be 19501.0, it is predicted that gold will be $1989.56, dollar index will be $95.54, bitcoin will be $13649.9, S&P 500 will be 3529.48
-In May 2021 , m2 money supply will be 19666.0, it is predicted that gold will be $2010.64, dollar index will be $95.53, bitcoin will be $13880.4, S&P 500 will be 3555.83
-In Jun 2021 , m2 money supply will be 19830.0, it is predicted that gold will be $2031.59, dollar index will be $95.53, bitcoin will be $14109.4, S&P 500 will be 3582.01
-In Jul 2021 , m2 money supply will be 20023.0, it is predicted that gold will be $2056.25, dollar index will be $95.53, bitcoin will be $14378.9, S&P 500 will be 3612.83
+* In Jan 2021 , m2 money supply will be 19250.0, it is predicted that gold will be $1957.5, dollar index will be $95.54,bitcoin will be $13299.4, S&P 500 will be 3489.4
+* In Feb 2021 , m2 money supply will be 19350.0, it is predicted that gold will be $1970.27, dollar index will be $95.54, bitcoin will be $13439.0, S&P 500 will be 3505.37
+* In Mar 2021 , m2 money supply will be 19444.0, it is predicted that gold will be $1982.28, dollar index will be $95.54, bitcoin will be $13570.3, S&P 500 will be 3520.38
+* In Apr 2021 , m2 money supply will be 19501.0, it is predicted that gold will be $1989.56, dollar index will be $95.54, bitcoin will be $13649.9, S&P 500 will be 3529.48
+* In May 2021 , m2 money supply will be 19666.0, it is predicted that gold will be $2010.64, dollar index will be $95.53, bitcoin will be $13880.4, S&P 500 will be 3555.83
+* In Jun 2021 , m2 money supply will be 19830.0, it is predicted that gold will be $2031.59, dollar index will be $95.53, bitcoin will be $14109.4, S&P 500 will be 3582.01
+* In Jul 2021 , m2 money supply will be 20023.0, it is predicted that gold will be $2056.25, dollar index will be $95.53, bitcoin will be $14378.9, S&P 500 will be 3612.83
 
 
 
