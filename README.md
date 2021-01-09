@@ -55,7 +55,7 @@ Independent Variable 2: If there is a limited supply of vaccine or efficiency is
 
 ### Data
 
-The following are the links to the data used:
+Other data provided for this project:
 
 [M2.csv](Resources/M2.csv)
 
@@ -138,19 +138,8 @@ We have found the optimal portfolio weighting for the “Normal” 2017-2019, ve
 Interestingly and firstly, under these scenarios, US Dollar futures is the least favorable asset to be included. Especially for the “Epidemic” scenario, the result suggests to avoid investing in US Dollar. Secondly, under the “Epidemic” scenario, although the assets are more volatile, Gold and Bitcoin performed much better and the portfolio could produce a much higher Sharpe ratio (2.37) comparing to under “Normal” scenario (1.47). The reason could be that investors were seeking a more defensive approach by investing more wealth into Gold and Bitcoin to against market uncertainty and inflation.
 
 
-   ### Forecast
-   
-The following images relate to performance forecasting of the assets using Linear Regression between M2 and each of the assets under consideration and the Monte Carlo simulation. 
-
-   #### Linear Regression
-   
-![](images/linear.png)
-
-
-
-![](images/norm_m2_plot.png)
-   
-   
+   ### Quantitative Forecast
+    
    #### Monte Carlo Simulation
    
    Doing 100 times of simulation of four different assets and optimized portfolio’s performance in  next three years based on Monte Carlo Simulation for the stated hypothesis. 
@@ -172,6 +161,31 @@ The following images relate to performance forecasting of the assets using Linea
    * There is a 95% chance that an initial investment of $10000 in bitcoin over the next 30 years will end within in the range of $21746.03 and $1429953.07
    * There is a 95% chance that an initial investment of $10000 in sp500 over the next 30 years will end within in the range of $3978.24 and $63534.6
    * There is a 95% chance that an initial investment of $10000 in the portfolio over the next 30 years will end within in the range of $48920.13 and $542433.28
+   
+   #### Forecast: US M2 Money Supply
+   
+Gold and M2 are highly positively correlated(0.953), next is sp500 followed by bitcoin. Dollar index on the other hand does not have much correlation with M2(only -0.09).
+
+![](images/norm_m2_plot.png)
+   
+   
+   #### Linear Regression
+   
+By using linear_model among sklearn library, we can construct linear regression to model the relationship betweenM2 and four assets so as to predict their value in the first half of 2012. 
+
+
+    
+![](images/linear.png)
+
+   #### Results
+In Jan 2021 , m2 money supply will be 19250.0, it is predicted that gold will be $1957.5, dollar index will be $95.54,bitcoin will be $13299.4, S&P 500 will be 3489.4
+In Feb 2021 , m2 money supply will be 19350.0, it is predicted that gold will be $1970.27, dollar index will be $95.54, bitcoin will be $13439.0, S&P 500 will be 3505.37
+In Mar 2021 , m2 money supply will be 19444.0, it is predicted that gold will be $1982.28, dollar index will be $95.54, bitcoin will be $13570.3, S&P 500 will be 3520.38
+In Apr 2021 , m2 money supply will be 19501.0, it is predicted that gold will be $1989.56, dollar index will be $95.54, bitcoin will be $13649.9, S&P 500 will be 3529.48
+In May 2021 , m2 money supply will be 19666.0, it is predicted that gold will be $2010.64, dollar index will be $95.53, bitcoin will be $13880.4, S&P 500 will be 3555.83
+In Jun 2021 , m2 money supply will be 19830.0, it is predicted that gold will be $2031.59, dollar index will be $95.53, bitcoin will be $14109.4, S&P 500 will be 3582.01
+In Jul 2021 , m2 money supply will be 20023.0, it is predicted that gold will be $2056.25, dollar index will be $95.53, bitcoin will be $14378.9, S&P 500 will be 3612.83
+
 
 
    ### Possible rationale behind these price movements and relationships 
