@@ -218,3 +218,4 @@ With 2020 we’ve seen many complications worldwide, but particularly in the US.
 In view of the calculations and made and the analysis above, the results suggest to invest more in Bitcoin and Gold, and to avoid US dollar whether conditions go back to normal or the epidemic will continue to persist in spreading.
    
 
+
