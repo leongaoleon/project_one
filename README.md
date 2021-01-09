@@ -55,6 +55,13 @@ Independent Variable 2: If there is a limited supply of vaccine or efficiency is
 
 ### Data
 
+The following are the links to the data used:
+
+[M2.csv](Resources/M2.csv)
+
+[m2-forecast-data.csv](Resources/m2-forecast-data.csv)
+
+[n-transacations.csv](Resources/n-transactions.csv)
 
 
 We have examined multiple data sources such as Alpaca, Quandl, FXCM, Alpha Vantage, Investing.com and Yahoo Finance.
